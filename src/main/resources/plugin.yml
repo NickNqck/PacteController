@@ -1,5 +1,5 @@
 name: PacteController
-version: '1.0'
+version: 1.0
 main: fr.nicknqck.addon.pacte.PacteController
 authors: [ Nicknqck ]
 description: Un addon permettant de contrôler facilement les pactes de Jigoro
