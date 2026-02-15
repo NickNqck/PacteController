@@ -22,7 +22,7 @@ public final class PacteController extends JavaPlugin {
         instance = this;
         getCommand("pactecontroller").setExecutor(new PacteCommand());
         getServer().getPluginManager().registerEvents(new PacteListener(), this);
-        new PacteCkecker(this, "NickNqck/PacteController");
+        new PacteCkecker(this);
     }
 
     @Override
