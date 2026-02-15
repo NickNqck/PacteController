@@ -1,0 +1,12 @@
+name: PacteController
+version: '1.0'
+main: fr.nicknqck.addon.pacte.PacteController
+authors: [ Nicknqck ]
+description: Un addon permettant de contrôler facilement les pactes de Jigoro
+website: dev.lunatix.fr
+depend: [ UHC-Meetup ]
+commands:
+  pactecontroller:
+    description: Permet de contrôler les pactes de Jigoro
+    usage: /pactecontroller, /pactecontroller status
+    aliases: [pactecontroller]
